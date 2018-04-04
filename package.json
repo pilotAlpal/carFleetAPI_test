@@ -1,8 +1,8 @@
 {
-  "name": "CarFleetAPItest",
+  "name": "api_test",
   "version": "1.0.0",
-  "description": "",
-  "main": "api.js",
+  "description": "Car Fleet Test API",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/pilotalpal/carFleetAPI_test.git"
   },
-  "author": "",
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "softportal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pilotalpal/carFleetAPI_test/issues"
   },
   "homepage": "https://github.com/pilotalpal/carFleetAPI_test#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
   "dependencies": {
+    "express": "^4.16.3"
   }
 }
